@@ -39,7 +39,7 @@ class LoginController extends Controller {
        $this->display();
     }
 	public function exitAction() {
-
+111;
      unset($_SESSION['id']);
      header("Location:http://localhost/lottery/admin/Login");
 
